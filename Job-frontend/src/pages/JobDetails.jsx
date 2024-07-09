@@ -25,7 +25,6 @@ const JobDetails = () => {
   return (
     
     <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4">
-        <PageHeader />
         <h2>Job Details: {id}</h2>
         <h1>{job.JobDetails}</h1>
 
