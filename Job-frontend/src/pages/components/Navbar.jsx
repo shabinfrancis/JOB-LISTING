@@ -16,7 +16,7 @@ const Navbar = () => {
                         Job Portal
                     </a>
                     <ul className='hidden md:flex justify-center items-center gap-6 text-xl'>
-                        <li><a className='hover:text-secondary' href='/browse-jobs'>Browse jobs</a></li>
+                        {/* <li><a className='hover:text-secondary' href='/browse-jobs'>Browse jobs</a></li> */}
                         <li><a className='hover:text-secondary' href='/my-jobs'>My Jobs</a></li>
                         <li><a className='hover:text-secondary' href='/post-jobs'>Post a job</a></li>
                     </ul>
